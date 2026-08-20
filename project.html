@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>anagha| Web Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Full-stack web developer specializing
+          in React and Node.js. Available for freelance projects."
+    />
+    <meta
+      name="keywords"
+      content="web developer, React, JavaScript, portfolio"
+    />
+    <meta name="author" content="anagha" />
+
+    <!-- Open Graph (for Facebook, LinkedIn, WhatsApp previews) -->
+    <meta property="og:title" content="anagha| Web Developer" />
+    <meta
+      property="og:description"
+      content="Check out my portfolio and projects!"
+    />
+    <meta property="og:image" content="anagha pic.png" />
+    <meta property="og:url" content="https://anagha.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="anagha| Web Developer" />
+    <meta name="twitter:description" content="Check out my portfolio!" />
+    <link rel="stylesheet" href="style.css">
+    <style></style>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar">
+        <div class="logo">A</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#Project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button
+          class="theme-toggle"
+          aria-label="Toggle Dark mode"
+          title="Toggle dark mode"
+        >
+          🌙
+        </button>
+        <button
+          class="menu-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ≡
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section" id="hero">
+        <h1>Hey, This is Anagha 👋</h1>
+        <p class="tagline">
+          <b>I am a passionate web developer from bangalore</b>
+        </p>
+        <div class="hero-button">
+  <a href="#Project" class="btn btn-primary">View My Project</a>
+  <a href="#contact" class="btn btn-secondary">Contact Me</a>
+</div>
+      </section>
+
+      <section id="about" class="about-section">
+        <h2>About me</h2>
+        <div class="about-content">
+          <figure class="profile-figure">
+            <img
+              src="my pic.jpeg"
+              alt="profile pic"
+              height="200"
+              width="150"
+            />
+            <figcaption>Anagha Venkatesh</figcaption>
+          </figure>
+
+          <div class="about-text">
+            <p>
+              I am intrested in learning and building new things and look
+              forward to work hard ....
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skill-section">
+        <h2>My skills</h2>
+        <div class="skill-grid">
+          <div class="skill-item" data-level="90">Html</div>
+          <div class="skill-item" data-level="80">CSS</div>
+          <div class="skill-item" data-level="60">Java script</div>
+          <div class="skill-item" data-level="70">React</div>
+          <div class="skill-item" data-level="90">Python</div>
+        </div>
+      </section>
+
+<section id="Project" class="Project-section">
+  <h2>My projects</h2>
+
+  <div class="project-grid">
+
+    <!-- Project 1: Outfit Planner -->
+    <article class="project-card" data-category="lifestyle">
+      <img
+        src="outfit planner.png"
+        alt="Outfit Planner"
+        height="200"
+        width="200"
+      />
+
+      <h3>Outfit Planner</h3>
+
+      <p>
+        A stylish outfit planning application where users can
+        organize clothes, create outfits, and plan their looks.
+      </p>
+
+      <div class="project-tag">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+      </div>
+
+      <a href="#" class="btn">Live Demo</a>
+      <a href="#" class="btn">Github</a>
+    </article>
+
+
+    <!-- Project 2: Movie Night Planner -->
+    <article class="project-card" data-category="entertainment">
+      <img
+        src="movie planner.png"
+        alt="Movie Night Planner"
+        height="200"
+        width="200"
+      />
+
+      <h3>Movie Night Planner</h3>
+
+      <p>
+        A movie discovery application where users can search for
+        movies, view ratings and details, and create a personal
+        watchlist.
+      </p>
+
+      <div class="project-tag">
+        <span class="tag">React</span>
+        <span class="tag">API</span>
+        <span class="tag">JavaScript</span>
+      </div>
+
+      <a href="#" class="btn">Live Demo</a>
+      <a href="#" class="btn">Github</a>
+    </article>
+
+<!-- Music Player Project -->
+<article class="project-card" data-category="music">
+
+  <img
+    src="music.png"
+    alt="Music Player"
+    height="200"
+    width="200"
+  />
+
+  <h3>Music Player</h3>
+
+  <p>
+    A responsive music player that allows users to play, pause,
+    skip, and control songs while displaying album artwork and
+    track information.
+  </p>
+
+  <div class="project-tag">
+    <span class="tag">HTML</span>
+    <span class="tag">CSS</span>
+    <span class="tag">JavaScript</span>
+  </div>
+
+  <a href="#" class="btn">Live Demo</a>
+  <a href="#" class="btn">Github</a>
+
+</article>
+
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+        <h2>Contact me</h2>
+        <p>Have a project in mind? Feel free to contact me!</p>
+        <form id="contact-form" action="">
+          <div class="form-group">
+            <label for="name">your name</label>
+            <input
+              type="text"
+              placeholder="Enter your name"
+              id="name"
+              name="name"
+              requried
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="mail">Email</label>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              id="mail"
+              name="mail"
+              requried
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select name="sub" id="sub">
+              <option value="a">select a topic</option>
+              <option value="hire">I want to hire you</option>
+              <option value="collab">I want to collabrate</option>
+              <option value="other">others</option></select
+            ><br />
+          </div>
+
+          <div class="form-group">
+            <label for="mesg">Message : </label>
+            <textarea
+              name="msg"
+              id="mesg"
+              placeholder="Tell about your project..."
+            ></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+        <p>Phone : 9741806493</p>
+        <p>
+          Email:
+          <a href=" mailto:anagha.venkatesh7@gmail.com"
+            >anagha.venkatesh7@gmail.com</a
+          >
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Anagha venkatesh.All rights reserved</p>
+      <nav aria-lable="Social-links">
+        <a href="https://github.com" target="_blank">Github</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      </nav>
+    </footer>
+     <script src="script.js"></script>
+  </body>
+</html>
+
+ 
