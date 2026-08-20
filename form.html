@@ -6,9 +6,53 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <label for="">Name</label> <br>
-        <input type="text" placeholder="Enter Your name">
+    <form action="https://www.ramaiahacademy.com">
+        <label for="name">Name</label> <br>
+        <input type="text" placeholder="Enter Your name" name="name" id="name"> <br>
+        <!-- phone --> <br>
+         <label for="phone">phone number</label> <br>
+         <input type="number" placeholder="Enter number" name="phone" id="phone"maxlength="10"> <br>
+         <button>submit</button> <br>
+          <!-- Email --> <br>
+        <label for="email">Email</label> <br>
+        <input type="email" name="email" id="email"> <br>
+
+        <!-- password --> <br>
+        <label for="pass">Password</label> <br>
+        <input type="password" minlength="5" maxlength="8"> <br>
+        <!-- radio button -->
+         <p>experience level</p>
+         <input type="radio" id="beginner" name="level" value="beginner">
+         <label for="beginner">beginner</label> <br>
+         <input type="radio" name="level" id="intermidiate" value="intermidiate">
+         <label for="intermidiate">intermidiate</label> <br>
+         <!-- checkbox -->
+          <p>technologies</p>
+          <input type="checkbox" name="tech" id="html" value="html">
+          <label for="html">HTML</label>
+          <input type="checkbox" name="tech" id="css" value="css">
+          <label for="css">CSS</label> <br>
+          <!-- dropdown -->
+           <label for="Country">Country</label>
+           <select name="Country" id="Country">
+            <option value="">Choose your country</option>
+            <option value="india">India</option>
+            <option value="UK">UK</option>
+            <option value="USA">USA</option>
+            </select>
+            <!-- textarea -->
+            <textarea name="msg" id="msg" placeholder="type here"></textarea> <br>
+
+            <!-- datepicker -->
+             <label for="dob">date of birth</label>
+             <input type="date" id="dob" name="dob">
+
+             <!-- file upload -->
+              <label for="resume">upload your resume</label>
+              <input type="file" name="resume" id="resume" accept=".pdf,.doc">
+
+         <button>submit</button> <br>
+         <button>reset</button> <br>
         </form>
 </body>
 </html>
